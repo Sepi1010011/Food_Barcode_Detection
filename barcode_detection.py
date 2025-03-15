@@ -7,7 +7,7 @@ from preprocess_food_barcode import run_preprocess
 from pyzbar.pyzbar import decode
 
 
-model_path = "D:\\Projects\\Food Barcode Object Detection\\Models\\Final Model and Dataset Selection Version 2\\yolov9s_barcode_detection_model\\weights\\yolov9s_barcode_detection.pt"
+model_path = "\\yolov9s_barcode_detection.pt"
 MODEL = YOLO(model_path)
 class_name = ["Barcode"]
 barcode_categories = {"0": "Barcode", "1": "Error Barcode"}
