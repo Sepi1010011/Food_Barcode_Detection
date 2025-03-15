@@ -11,7 +11,7 @@ from streamlit_webrtc import webrtc_streamer, VideoProcessorBase
 from barcode_query import run_database_search
 # streamlit run app.py enableXsrfProtection false
 
-def append_to_csv(report_data, file_name="D:\\Projects\\Food Barcode Object Detection\\Deployments\\flagged\\reports.csv"):
+def append_to_csv(report_data, file_name="\\flagged\\reports.csv"):
     try:
         new_row = pd.DataFrame([report_data])
         if os.path.exists(file_name):
@@ -152,7 +152,7 @@ def contact_dev_sidebar():
                     st.warning("🚨 Please fill in all of the fields!!")
                 
                 else:   
-                    append_to_csv(st.session_state.contact_data, "D:\\Projects\\Food Barcode Object Detection\\Deployments\\flagged\\contact.csv")
+                    append_to_csv(st.session_state.contact_data, "\\flagged\\contact.csv")
                     st.success("✅ Your message has been sent. Thank you!")
                     
                     st.session_state.show_contact_form = False
