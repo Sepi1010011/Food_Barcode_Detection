@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-DEFAULT_DB_PATH = "D:\\Projects\\Food Barcode Object Detection\\Deployments\\database\\food_chain_store.csv"
+DEFAULT_DB_PATH = "\\database\\food_chain_store.csv"
 
 
 class DatabaseRepository:
