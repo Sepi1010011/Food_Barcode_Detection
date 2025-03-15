@@ -1,4 +1,15 @@
 # 📌 Food Barcode Detection
+
+A Food Barcode Detection WebApp in Hugging Face Spaces 🤗
+
+![image](https://github.com/user-attachments/assets/62c3b559-88d8-4deb-bcfe-ecf682ba1411)
+
+
+
+The Link is:  
+👉 [Food Barcode Detection on Hugging Face Spaces](https://huggingface.co/spaces/MrGAI/Food_Barcode_Detection)
+
+---
 🚀 Overview
 
 In large chain stores, optimizing operations can significantly impact profitability. Key factors influencing a store's success include customers, human resources, store layout, and inventory management. By leveraging modern technologies, we can enhance the shopping experience, streamline operations, and reduce costs.
